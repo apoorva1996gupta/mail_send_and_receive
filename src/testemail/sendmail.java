@@ -26,7 +26,7 @@ public class sendmail {
      props.put("mail.store.protocol", "pop3");
      props.put("mail.transport.protocol", "smtp");
      final String username = "apoorva1996gupta@gmail.com";//
-     final String password = "yourpassword";
+     final String password = "@poorvakeshu";
      try{
      Session session = Session.getDefaultInstance(props, 
                           new Authenticator(){
@@ -46,6 +46,6 @@ public class sendmail {
      msg.setSentDate(new Date());
      Transport.send(msg);
      System.out.println("Message sent.");
-  }catch (MessagingException e){ System.out.println("Erreur d'envoi, cause: " + e);}
+  }catch (MessagingException e){ System.out.println("error, cause: " + e);}
   }
 }

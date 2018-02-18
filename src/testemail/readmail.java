@@ -42,7 +42,7 @@ public class readmail {
      //Message[] messages = emailFolder.getMessages();
       //System.out.println("messages.length---" + messages.length);
       System.out.println("now searching folder for specific email address");
-      SearchTerm sender = new FromTerm(new InternetAddress("krishnapriya_kusuma@optum.com"));
+      SearchTerm sender = new FromTerm(new InternetAddress("ayushig515@gmail.com"));
       Message[] messages = emailFolder.search(sender);
       System.out.println("messages.length---" + messages.length);
       for (int i = 1; i < messages.length; i++) {
@@ -88,7 +88,7 @@ public class readmail {
       String host = "pop.gmail.com";// change accordingly
       String mailStoreType = "pop3";
       String username = "apoorva1996gupta@gmail.com";// change accordingly
-      String password = "yourpassword";// change accordingly
+      String password = "@poorvakeshu";// change accordingly
 
       check(host, mailStoreType, username, password);
 
